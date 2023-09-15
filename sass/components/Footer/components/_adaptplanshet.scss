@@ -1,0 +1,55 @@
+// .nout,
+// .planshet,
+// .telefon {
+//       display: none;
+// }
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+      .ura {
+            display: flex;
+            height: 170px;
+            width: 100%;
+            justify-content: center;
+            background-color: rgb(61, 61, 61);
+      }
+      .conec,
+      .conec-1 {
+            color: white;
+            background-color: rgb(60, 60, 60);
+            text-align: center;
+            padding: 10px;
+            li {
+                  padding: 10px 50px 10px 50px;
+                  width: 400px;
+                  h2 {
+                        //   border-bottom: 1px solid goldenrod;
+                        text-decoration: dashed 1px solid goldenrod;
+                  }
+            }
+      }
+      .conec-1 li:nth-child(3) {
+            border: 1px solid rgba(218, 165, 32, 0.738);
+            padding: 10px 1px 10px 1px;
+            width: 150px;
+            margin-left: 180px;
+      }
+      .conec-1 li:nth-child(3):hover a {
+            background-color: rgb(246, 179, 12);
+            color: black;
+            padding: 17px;
+            text-transform: uppercase;
+            font-size: 20px;
+            text-decoration: dashed 1px black;
+      }
+      .maje {
+            background-color: white;
+            color: black;
+      }
+      .maje ul {
+            display: flex;
+      }
+      .maje ul li:nth-child(2) {
+            padding-left: 950px;
+            //   text-align: right;
+      }
+}

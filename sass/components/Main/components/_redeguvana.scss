@@ -1,0 +1,59 @@
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+      .redeguvana {
+            justify-content: center;
+            display: flex;
+      }
+      .redeguvana ul {
+            justify-content: center;
+            li {
+                  padding: 50px;
+                  font-size: 30px;
+                  justify-content: center;
+                  text-align: center;
+                  .up a {
+                        color: rgba(255, 255, 255, 0);
+                        border: 2px solid rgba(218, 165, 32, 0);
+                        color: rgba(0, 0, 0, 0);
+                        background-color: rgba(255, 255, 255, 0);
+                        padding: 30px 113px;
+                  }
+            }
+      }
+      .wan {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            text-transform: uppercase;
+            left: 170px;
+            top: 2550px;
+            border-bottom: 2px solid gold;
+      }
+      .too {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            text-transform: uppercase;
+            left: 610px;
+            top: 2550px;
+            border-bottom: 2px solid gold;
+      }
+      .tri {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            text-transform: uppercase;
+            left: 1090px;
+            top: 2550px;
+            border-bottom: 2px solid gold;
+      }
+      .hover:hover li span a {
+            color: rgb(255, 255, 255);
+            border: 2px solid rgb(218, 165, 32);
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            padding: 30px 113px;
+            border-bottom: 2px solid gold;
+            //   text-decoration: dashed 1px solid gold;
+      }
+      .up a:hover {
+            background-color: gold;
+            color: black;
+      }
+}

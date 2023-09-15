@@ -1,0 +1,40 @@
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+      .Main {
+            height: 100%;
+            color: white;
+      }
+      .zastavka-start img {
+            object-fit: cover;
+            // width: 1400px;
+            padding: 0 0 20px 0px;
+            justify-content: center;
+      }
+      .zastavka-start h3 {
+            position: absolute;
+            // justify-content: center;
+            // text-align: center;
+            top: 300px;
+            right: 400px;
+            font-size: 110px;
+            color: rgba(255, 255, 255, 0.812);
+      }
+
+      .zastavka-start h1 {
+            text-align: center;
+            border-radius: 20px;
+            border: solid 1px goldenrod;
+            text-transform: uppercase;
+            // width: 500px;
+            justify-content: center;
+            padding: 20px;
+            margin-right: 620px;
+            margin-left: 620px;
+      }
+
+      .zastavka-start h1:hover {
+            background-color: goldenrod;
+            color: white;
+            text-decoration: dotted;
+            text-transform: lowercase;
+      }
+}

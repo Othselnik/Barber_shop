@@ -1,0 +1,40 @@
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+      body,
+      .root {
+            background-color: black;
+      }
+
+      .rozpys {
+            display: flex;
+            color: white;
+            padding: 10px;
+            background-color: rgba(74, 73, 73, 0.612);
+            justify-content: space-between;
+      }
+
+      .rozpys li {
+            // padding-top: 10px;
+            // padding: 2px 20px 0 5px;
+            font-size: 15px;
+      }
+      // .rozpys li:nth-child(1) {
+      //       padding-top: 0px;
+      //       padding-right: 8px;
+      // }
+      // .rozpys li:nth-child(2) {
+      //       padding-right: 1100px;
+      //       padding-top: 5px;
+      // }
+      // .rozpys li:nth-child(3) {
+      //       padding-right: 60px;
+      // }
+      // .rozpys li:nth-child(4) {
+      //       padding-top: 8px;
+      // }
+      .rozpys li a:hover {
+            border-bottom: 1px solid goldenrod;
+            // border: 2px solid white;
+            text-decoration: dashed;
+            color: gold;
+      }
+}

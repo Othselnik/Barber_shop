@@ -1,0 +1,40 @@
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+      .cas {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+            //   .cas-praci {
+            //         padding: 20px;
+            //         text-align: center;
+            //         display: grid;
+            //         grid-template-columns: 300px 300px;
+            //         grid-template-rows: 40px 40px;
+            //   }
+            //   .cas-praci li {
+            //         border-bottom: solid 1px gold;
+            //   }
+            .cass {
+                  display: flex;
+                  padding: 20px;
+                  justify-content: center;
+                  .cas-praci {
+                        padding: 10px;
+                  }
+                  .cas-praci li {
+                        border-bottom: solid 1px gold;
+                  }
+                  .cas-praci:nth-child(1) {
+                        padding-right: 800px;
+                  }
+            }
+            .cass ul {
+                  border-bottom: solid 1px gold;
+            }
+            .cass ul:nth-child(1) {
+                  text-align: left;
+            }
+            .cass ul:nth-child(2) {
+                  text-align: right ul;
+            }
+      }
+}

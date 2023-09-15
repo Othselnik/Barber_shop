@@ -1,0 +1,71 @@
+@media screen and (max-width: 767px) {
+      .Logo {
+            display: flex;
+            justify-content: center;
+      }
+      .Logo li {
+            padding: 4px 120px 2px 2px;
+      }
+      .Logo li img {
+            height: 50px;
+      }
+      .logo {
+            display: flex;
+            justify-content: right;
+            justify-content: center;
+      }
+      .logo li {
+            padding: 22px 20px 5px 2px;
+      }
+      .flex {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            justify-content: space-between;
+            border: 1px solid rgb(0, 0, 0);
+            background-color: black;
+      }
+      .logo li a:hover {
+            border-bottom: 1px solid goldenrod;
+            // border: 2px solid white;
+            text-decoration: dashed;
+            color: gold;
+      }
+      body,
+      .root {
+            background-color: black;
+      }
+
+      .rozpys {
+            display: flex;
+            color: white;
+            padding: 10px;
+            background-color: rgba(74, 73, 73, 0.612);
+      }
+
+      .rozpys li {
+            // padding-top: 10px;
+            padding: 2px 20px 0 5px;
+            font-size: 15px;
+      }
+      .rozpys li:nth-child(1) {
+            padding-top: 0px;
+            padding-right: 8px;
+      }
+      .rozpys li:nth-child(2) {
+            padding-right: 1100px;
+            padding-top: 5px;
+      }
+      .rozpys li:nth-child(3) {
+            padding-right: 60px;
+      }
+      .rozpys li:nth-child(4) {
+            padding-top: 8px;
+      }
+      .rozpys li a:hover {
+            border-bottom: 1px solid goldenrod;
+            // border: 2px solid white;
+            text-decoration: dashed;
+            color: gold;
+      }
+}
